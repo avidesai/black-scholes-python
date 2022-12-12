@@ -29,4 +29,3 @@ def black_scholes(r, S, K, T, sigma, type = "C"):
         print("Please confirm all of the option parameters above!")
 
 print("Theoretical option price is: ", round(black_scholes(r, S, K, T, sigma, type="C"), 2))
-
